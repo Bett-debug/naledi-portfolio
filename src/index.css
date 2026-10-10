@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+@theme {
+  --color-moss-deep: #0D1F17;
+  --color-moss-dark: #132A1F;
+  --color-moss-surface: #1F382B;
+  --color-moss-tint: #4D6356;
+  --color-terracotta: #C86D51;
+  --color-ochre: #C49A45;
+  --color-botanical-gold: #D4AF37;
+  --color-parchment: #F5F2EB;
+  --color-parchment-low: #ECE7DC;
+  --color-parchment-mid: #E3DDD0;
+  --color-secondary-fixed: #e9c349;
+  --color-surface-bright: #F5F2EB;
+  --color-inverse-surface: #1A251E;
+  --color-surface-tint: #4d6356;
+  --color-on-secondary-fixed: #241a00;
+  --color-on-surface-variant: #4A544C;
+  --color-secondary: #735c00;
+  --color-on-error: #ffffff;
+  --color-on-secondary: #ffffff;
+  --color-on-primary-fixed: #0a2015;
+  --color-on-background: #141C16;
+  --color-tertiary-container: #0D1F17;
+  --color-tertiary: #000a07;
+  --color-surface-container-highest: #dedcd7;
+  --color-tertiary-fixed-dim: #a6cfc3;
+  --color-on-tertiary-container: #7ca499;
+  --color-primary-container: #0D1F17;
+  --color-tertiary-fixed: #c1ebdf;
+  --color-on-tertiary-fixed-variant: #274e45;
+  --color-surface-variant: #ECE7DC;
+  --color-surface-container: #ECE7DC;
+  --color-outline: #787e78;
+  --color-surface-container-high: #E3DDD0;
+  --color-primary-fixed: #d0e9d7;
+  --color-on-primary: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-surface-container-lowest: #ffffff;
+  --color-inverse-on-surface: #F5F2EB;
+  --color-on-primary-container: #879f90;
+  --color-primary-fixed-dim: #b4ccbb;
+  --color-background: #F5F2EB;
+  --color-secondary-container: #fed65b;
+  --color-outline-variant: #C8D1C7;
+  --color-on-primary-fixed-variant: #364c3f;
+  --color-on-tertiary-fixed: #00201a;
+  --color-primary: #0D1F17;
+  --color-error: #ba1a1a;
+  --color-surface-container-low: #F5F2EB;
+  --color-surface-dim: #d7d6d1;
+  --color-on-secondary-fixed-variant: #574500;
+  --color-on-tertiary: #ffffff;
+  --color-inverse-primary: #b4ccbb;
+  --color-on-error-container: #93000a;
+  --color-on-surface: #141C16;
+  --color-secondary-fixed-dim: #e9c349;
+  --color-surface: #F5F2EB;
+  --color-on-secondary-container: #745c00;
+
+  --spacing-margin: 4rem;
+  --spacing-gutter: 2rem;
+  --spacing-space-xl: 4.5rem;
+  --spacing-space-sm: 0.75rem;
+  --spacing-gutter-mobile: 1.25rem;
+  --spacing-space-lg: 2.5rem;
+  --spacing-margin-mobile: 1.5rem;
+  --spacing-space-md: 1.25rem;
+  --spacing-space-xs: 0.375rem;
+
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-editorial-serif: 'Playfair Display', serif;
+  --font-mono-editorial: 'Courier Prime', monospace;
+
+  --tracking-ultra: 0.22em;
+  --tracking-tightest: -0.04em;
+  --tracking-tighter: -0.025em;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F2EB;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overscroll-behavior: none;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes vine-sway {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(2.4deg) translate(2px, 1px); }
+}
+
+@keyframes vine-sway-subtle {
+  0%, 100% { transform: rotate(0deg) skewX(0deg); }
+  50% { transform: rotate(-1.8deg) skewX(1deg); }
+}
+
+@keyframes leaf-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50% { transform: scale(1.08); opacity: 1; }
+}
+
+@keyframes botanical-drift {
+  0% { transform: translateY(0px) translateX(0px) rotate(0deg); opacity: 0; }
+  15% { opacity: 0.65; }
+  85% { opacity: 0.45; }
+  100% { transform: translateY(-380px) translateX(45px) rotate(160deg); opacity: 0; }
+}
+
+.anim-vine-sway {
+  transform-origin: top left;
+  animation: vine-sway 9s ease-in-out infinite;
+}
+
+.anim-vine-sway-delayed {
+  transform-origin: top right;
+  animation: vine-sway-subtle 11s ease-in-out infinite 2s;
+}
+
+.anim-leaf-pulse {
+  transform-origin: center;
+  animation: leaf-pulse 5s ease-in-out infinite;
+}
+
+.bg-parchment {
+  background-color: #F5F2EB;
+}
+.bg-parchment-low {
+  background-color: #ECE7DC;
+}
+.bg-moss-deep {
+  background-color: #0D1F17;
+}
+.bg-moss-dark {
+  background-color: #132A1F;
+}
+.border-earth {
+  border-color: rgba(31, 56, 43, 0.12);
+}
+.border-l-3 {
+  border-left-width: 3px;
+}
