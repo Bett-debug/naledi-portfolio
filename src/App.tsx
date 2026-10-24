@@ -589,7 +589,7 @@ export default function App() {
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-10 border-t border-earth">
                 <div className="space-y-1">
                   <span className="text-3xl lg:text-4xl font-bold tracking-tight text-primary block tabular-nums">
-                    5+
+                    5+ yrs
                   </span>
                   <span className="text-[11px] font-semibold tracking-ultra uppercase text-on-surface-variant flex items-center gap-1">
                     <span className="w-1 h-1 rounded-full bg-terracotta" /> 
