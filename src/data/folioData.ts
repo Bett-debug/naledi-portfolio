@@ -1,7 +1,7 @@
 export interface PlateItem {
   id: string;
   plateNumber: string;
-  categoryKey: 'concerts' | 'studio' | 'travel' | 'adventure' | 'events';
+  categoryKey: 'church' | 'studio' | 'travel' | 'adventure' | 'events';
   shortCategory: string;
   fullCategory: string;
   shortDate: string;
@@ -24,23 +24,23 @@ export const HERO_PLATES = {
   primary: {
     id: 'hero-01',
     plateId: '01',
-    badge: 'Flora & Field · Plate 01 · Live Sound',
-    location: 'Nairobi Stadium',
-    gear: 'Leica SL2-S · 35mm f/1.4 Summilux',
-    title: 'Sonic Resonance: 45,000 Voices Under Halogen Beam',
-    desc: 'Captured unscripted during the climactic chorus of the East African Sol Fest finale under golden rim lighting and volcanic dust haze.',
+    badge: '1955 Market Mansion',
+    location: 'Mombasa',
+    gear: 'sony a7 III · 35mm · 1/800s',
+    title: 'coast streetscape',
+    desc: 'Streamline Moderne residential facade inscribed "1955 MARKET MANSION" with weathered tropical patina, turquoise architectural fins, and tangled overhead power lines against a vivid cobalt sky...',
     imageUrl:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDQVCIkf5WlIWVK7FTaJqdtpGC2GIsglOrdZwJzpHFXbTVGgK_WP-_YmpmcWOQ0Z08jbI2Rev--jz9xE7gzR0ZYy3Qvhv_kwzb9NATl1qj2PN3H9LK8jhCfY2YraSsnzXYjEKsD-ZyJ80nRi9AkhMqK1XmHTjS9EpJccf3lzpJxcR-xREugra2IxfRkJNvn8xh-jmuUhAihAyFpbYEFGaniM1PADaZ5BBYTt2YDjYiDmlgvtAYpsfVXfA',
-    alt: 'Dramatic high contrast concert photograph taken with a Leica SL2-S 35mm lens in Nairobi Arena. An electrifying front-stage singer bathed in golden amber spotlights and deep emerald stage fog, hands raised toward an ocean of silhouetted festival audience hands with subtle atmospheric mist and dramatic rim lighting.',
+      'https://lh3.googleusercontent.com/pw/AP1GczNGvdiWqe1p5OxXyfT2H1pApCHUYCP87mGQh--uCZzohMOhEl1NN6xvpnbYeCcBIdeH5DJgWfclqATS_D_S-WUfYHqH4XCjk08QJc6ys2D4KDhoSvIs_MopLvUOocbN269lvTYpHwQFYzVINZO005tbVA=w1466-h978-s-no-gm?authuser=0',
+    alt: 'Clicking the plate in either the Hero or the Portfolio gallery opens the fullscreen inspection viewer with the complete caption and camera telemetry.',
   },
   secondaryTop: {
     id: 'hero-02',
     plateId: '02',
     badge: 'Plate 02 · Studio Chronicle',
     title: 'Frequencies at Midnight: The Acoustic Sessions',
-    gear: 'Hasselblad X2D 100C · 55mm · Karen Audio Lab',
+    gear: 'Sony A7 III · Karen Audio Lab',
     imageUrl:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuDGvkcohROWTmIJEHgPC16Apw9-9hIlwHZvsSI5cFvOOYXnIPAOvYSPAwUZxgdTaXBAYZKHSQxfdR0CGsxmBQ1Q3so_TY8XbZJ7idrNar886Uu_BH2EaU1OX80V5CP7tuZCkyCxymItVICZkkiTKK8ZBSAaSfkd556qT2Za8BbRFaNYg0NL_6t8YHH5euPdVqP6v4l3xKowlR0JDizibHcHuVQWpFzFAk-hhKHfV2TPW7zxTRUe09poew',
+      'https://lh3.googleusercontent.com/pw/AP1GczNGvdiWqe1p5OxXyfT2H1pApCHUYCP87mGQh--uCZzohMOhEl1NN6xvpnbYeCcBIdeH5DJgWfclqATS_D_S-WUfYHqH4XCjk08QJc6ys2D4KDhoSvIs_MopLvUOocbN269lvTYpHwQFYzVINZO005tbVA=w1466-h978-s-no-gm?authuser=0',
     alt: 'Intimate editorial documentary shot of an acoustic soul singer and producer working over an analog Neve mixing desk in a Karen Nairobi recording studio. Moody deep forest green shadow tones, warm Edison bulb filaments glowing over vintage vinyl records and tube microphones, subtle analog tape reels in soft background focus.',
   },
   secondaryBottom: {
@@ -48,41 +48,41 @@ export const HERO_PLATES = {
     plateId: '03',
     badge: 'Plate 03 · Motorsport Expeditions',
     title: 'Volcanic Dust Trail: Red Bull Hard Enduro',
-    gear: 'Sony A1 · 70-200mm · 1/2500s Rift Escarpment',
+    gear: 'Sony A7 III · 70-200mm · 1/2500s Rift Escarpment',
     imageUrl:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBW_Y97pj5wnD9GdEUECtlDK7T978lK9IEOfdvP25EvU_wg2sELixznjLNFLzWiyQ9_TStJyF4ZXUdJ0M0QQxofEALEbXAyiSP_M1Qzj0Nkeq7N_w1nwbZlAg4m7QjVp8jisFFWR23uBzmMjs2t7V5n6m07kunnboskEXhZEdCYpFvb5SWXOyVHJzXj1g1lh1kGh-YMRPND3jq4_yERpCXZLFRR502yJSu_df89npbZgXuTzG7qD65AoQ',
+      'https://lh3.googleusercontent.com/pw/AP1GczPVr9Wlndkrmjgc9YSdHrnetXXel73VzoKDWCoDN1yRaSNbJ6VHgkXs1Q=w1466-h978-s-no-gm?authuser=0',
     alt: 'Dynamic action photograph of an off-road enduro motorcycle rider drifting through red volcanic dust switchbacks in the Great Rift Valley Kenya at sunset. Spectacular backlight creating long amber shadows and illuminated roost dirt plumes, rugged acacia trees and rocky ridgelines under dramatic stormy equatorial skies.',
   },
 };
 
 export const PORTRAIT_IMAGE = {
-  url: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAsFlpP9KYTXDYJSVqAdiOvj9aNrGl87NvjRf3ud6E74p9BO6_oX35XO2S_MBLmTAAZuc5NBNdJDG3GHcYH22FE2wk6_yAoZzs8MvOC0YAyrSvvV-_mbGPSXBN3-FHHcay_cp0n54GH-9QdIY0GOjNgxnkKEe3fhyfZ-xl57p8EfGzR6TNYe4tQBOmD2mwrIR67lif3yx6CADRd60istAjihJKK5SALrJ8xi31d_PK93h6IXqfJY-cEvQ',
-  alt: 'Monochrome portrait of documentary photographer Samuel Kiplangat holding a Leica rangefinder camera over his shoulder in Karen Nairobi, wearing a rugged dark field jacket, intense thoughtful gaze, textured natural paper look.',
+  url: 'https://lh3.googleusercontent.com/pw/AP1GczOKw4vfL53B7AXVthdvVTWJtMPA4AGCkpLgcTbOc9lc1PNDLjzljfhdfKGilpSrMIYTecjOkMeWgrq9Ff2V9QcDIqVa77bvV4Cu4-aMPAOGgxKk-m_A-upV24Qr6ClXPuA2bBIOoE6QnhlbhREydlgIwg=w550-h979-s-no-gm?authuser=0',
+  alt: 'Portrait of documentary photographer Samuel Kiplangat holding a Sony camera over his shoulder in Karen Nairobi, wearing a rugged dark field jacket, intense thoughtful gaze, textured natural paper look.',
 };
 
 export const DEFAULT_LIGHTBOX_IMAGE =
-  'https://lh3.googleusercontent.com/aida-public/AB6AXuC8Kb9WX24_meOXoMfNdR_pyfkd0ZWFRZh8H66jLDak5saBs3IV0CnJcJINO39ef_ju1VNaKwlR37LGDJlMI3bzsT9rixRp6mS5PdJzOoRN__pfMo-ebnslxiiLrxNuggChSTXgRxHVmbsVbvaGJRWDxbHWlxECeD7bEXSSdLeevUIlw60EpcH5homU-5xBF7CBZZS3Ee37pe1B7H5AuhKtbuu8G69ULeoIe4XvmvITxofcOFfbpk9-mA';
+  'https://lh3.googleusercontent.com/pw/AP1GczOKw4vfL53B7AXVthdvVTWJtMPA4AGCkpLgcTbOc9lc1PNDLjzljfhdfKGilpSrMIYTecjOkMeWgrq9Ff2V9QcDIqVa77bvV4Cu4-aMPAOGgxKk-m_A-upV24Qr6ClXPuA2bBIOoE6QnhlbhREydlgIwg=w550-h979-s-no-gm?authuser=0';  
 
 export const FOLIO_PLATES: PlateItem[] = [
   {
     id: '01',
     plateNumber: 'Plate 01',
-    categoryKey: 'concerts',
-    shortCategory: 'Live / Nairobi',
+    categoryKey: 'church',
+    shortCategory: ' Nairobi',
     fullCategory: 'Concert & Live Arena',
     shortDate: 'Oct 2024',
     fullDate: 'October 2024',
-    title: 'The Mid-Air Crescendo',
+    title: ' Crescendo',
     shortDesc:
       'Electrifying moment of stage suspension before 30,000 festivalgoers under warm tungsten pyrotechnics.',
     fullDesc:
       'Captured unscripted during the climactic finale chorus. The camera operator moved along the sub-bass monitor trench, waiting for the instantaneous pyrotechnic blast that carved gold rim illumination against the artist’s silhouette.',
     location: 'Nairobi Arena, Kenya · 45,000 Attendance',
     imageUrl:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBsBhlcrubE19v1uqMVJ_TE2OmiLgCnGjb0Utz9X6DeI100fynjhI-EHFNrReOBoJw_6lztZQutm32-SWIeimCTkggbvlWUUiPKIySfdY0zdmcDonOng9iTR2VqyHhhabOfdjkhYAMA-Z8mkOWkWK-YnE-Cla62VTFesd3MJKoDsmiQpCM53sSlA_yyKSxOZfs6xcwVXP4cbWTa7qF8Z2WD7_lWpkWFxaaSoyN49-y2DJGnapKkUUBmsg',
+      'https://lh3.googleusercontent.com/pw/AP1GczMpR4WMJJvvGbJt-ghdFYElfevxT00pCxSoEyo-=w1466-h978-s-no-gm?authuser=0',
     alt: 'High energy live stadium photograph of an Afrobeats singer leaping mid-air on stage bathed in amber laser beams and golden confetti at Carnivore Grounds Nairobi, intense facial expression, sharp silhouettes of fans holding hands up against glowing stage lights.',
-    body: 'Leica SL2-S Mirrorless',
-    lens: 'Leica 35mm f/1.4 Summilux',
+    body: 'Sony A7 III',
+    lens: 'Sony 35mm f/1.4',
     exp: '1/800s at f/1.6',
     iso: 'ISO 3200',
     plateTag: 'Plate 01 · Full Aperture',
@@ -103,7 +103,7 @@ export const FOLIO_PLATES: PlateItem[] = [
       'Documenting the tactile, visceral resonance of cello wood during late night orchestral scoring. Ambient halogen spotlights warmed the mahogany grain while a ribbon microphone absorbed the low registers.',
     location: 'Westlands Acoustic Lab, Nairobi',
     imageUrl:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuA4NZ46aXwuDeP3Cq-KB9atQxk9auKDFYy3J6doSwsstgh9Fr6QBBw4DD60_w-aa9rWH4fMlL0EY3Frvqg61d2dStgyZ5SrNXpR2An1swHE-Oxb0p5rhHVvuegegW1CGijFhHYcmLRD9tqSHB4GYuomFysC_6s4bx0sJCHZf-it5UMtVmH9TSZhEmXi9FCALHYSuV-MK8u7KqOJ3AYuNXm5Sc5INb8Z4KojKCRlhLl5iKOccT3twhJb8g',
+      'https://lh3.googleusercontent.com/pw/AP1GczPTt5DgTRfHebr6Nu9hkS5jc63231nsyIe_kotJtoi7FoNkuTpSaaQ_eAmCf_dj29QFcetwCw5nWjSVqfpt6zYVHV2jkkkwMDIiFYVFO4OEdjirDTtSdcwLwz4eiIKtxCsy_ZHaCbH5D5q6PKlSMWWt=w1466-h978-s-no-gm?authuser=0',
     alt: 'Close up moody portrait of a cellist in an analog sound recording studio in Westlands Nairobi, warm amber rim lighting catching the wood grain of the cello, microphone boom suspension, acoustic wooden diffuser panels in gentle out-of-focus background.',
     body: 'Hasselblad X2D 100C',
     lens: 'XCD 90mm f/2.5 V',
@@ -127,7 +127,7 @@ export const FOLIO_PLATES: PlateItem[] = [
       'High speed tracking shot capturing the sheer velocity of an enduro rally rider tearing across glistening white alkaline flats under scorching mid-afternoon heat.',
     location: 'Lake Magadi Basin, Rift Valley',
     imageUrl:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuCm6AF8HxpLrEjk-gi4cIFCWfSZLU4dGdt_ReunxZ9ndZTjMgYPPdleHKTcIKeS-QXnuOOrl7m3wxBEvUpHLqMtw94VbuF9RgvGQ4Oc0rG_o9ccinaeBTdQvxEVlI5r5hrQgGi7pb8gbZRzN702fd7ROWDPveDc5r-p3LTa5ktq1ZGnuCtGH4hCJVktEM31-FLSTgdWi_KalpXOlcC-4usLkw40_ZAPj1aJYn_hbxA0jpOZ0vN46T5ltg',
+      'https://lh3.googleusercontent.com/pw/AP1GczMPk1ciBdLJ3Db8syb068XZuUI5AyzI-T20IOWIEzPCcRKYjANmcT6nSAeuLQ0uRVxigW-4FvGDFhdNW01ixAf8NxzNy60jXPQrbKca-qmUXxD2j4W2jH7HGTQ0dKwbjmvVIsTIX2TqzUELoeXIUoFE=w1466-h978-s-no-gm?authuser=0',  
     alt: 'Rugged adventure rally motorcycle kicking up thick volcanic clay dirt at high velocity on the crest of Lake Magadi Kenya, harsh equatorial sunlight reflecting off the salt flats, rider wearing matte rally helmet and high-contrast Dakar livery.',
     body: 'Sony Alpha 1',
     lens: 'FE 24-70mm f/2.8 GM II',
@@ -151,7 +151,7 @@ export const FOLIO_PLATES: PlateItem[] = [
       'A solitary morning passenger looks out onto rolling morning fog and tea plantations as the vintage passenger coach curves through the western highlands.',
     location: 'Kericho Tea Corridor, Great Rift',
     imageUrl:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuAJ7PgPHGx8IiKfB3WooCy5dHLewwN7o_yiMt_plAQDhU8VnM3yq142lrAQTo-jKu0MrEea_Uua3GMI-jDDd_cxk3TwjbEVy9zOuglRt-HGKYbAuAZiOMQim4wDndHFKuVb-p3HMMEWfc-5bK0xwD9WelV7sbwGtXG20LARDbtvJEUmgCRN78w1iE-oSNxgakvwT0bi0nUoFbNmGCFY4y9miAgg7XuH-SW7eQ9uS6i6kiWzfpFiebdyNw',
+      'https://lh3.googleusercontent.com/pw/AP1GczNGvdiWqe1p5OxXyfT2H1pApCHUYCP87mGQh--uCZzohMOhEl1NN6xvpnbYeCcBIdeH5DJgWfclqATS_D_S-WUfYHqH4XCjk08QJc6ys2D4KDhoSvIs_MopLvUOocbN269lvTYpHwQFYzVINZO005tbVA=w1466-h978-s-no-gm?authuser=0',
     alt: 'Cinematic passenger train carriage window view traversing the mist covered tea plantations of Kericho and the Great Rift highlands of Kenya at dawn. Warm incandescent reading lamp inside wooden coach contrasting against deep emerald green hills and rolling morning fog outside.',
     body: 'Leica SL2-S',
     lens: 'Leica 50mm f/1.4 Summilux',
@@ -175,7 +175,7 @@ export const FOLIO_PLATES: PlateItem[] = [
       'Candid, unobtrusive VIP reportage documenting diplomatic dignitaries and cultural visionaries celebrating the inauguration of the Contemporary African Arts Endowment.',
     location: 'Villa Rosa Kempinski, Nairobi',
     imageUrl:
-      'https://lh3.googleusercontent.com/aida-public/AB6AXuBAyPAE-pmvKRjRlej14_kIsyan8ItfYuwyXk6Mfo1JSqXEK4UKtcY28xEwdjiFyvA2CM6Dd2GRwr8oWH-04gOP4WUExhjk6jww3_cmOusF4NwPXyYNJQEGzVnTRRCJvMuhECaiUNyt1H7kZ5zAgUhKsyya3fah3h8VlQTqv0ALhO3XDHzdSY0mCLJBnh1hmCSjCPoLeGK7ickdUCI0Q2A1vhe-v02b1055Msu05mhN16U-nFx0yC18gw',
+      'https://lh3.googleusercontent.com/pw/AP1GczOPobZ-o6UjTyZEPFjshAva1YJBKZL2iLYatCW__7hnzr9Lx_hD9YAW0gr7-Pi-ETfX-hU1327owVuhl64ko__rQ2KXt-3q-WHRVQIj9gbhuPo-4-nVjcmLAfrbWUA1z4aNvXYRXOGJ1gfN6hRPWJoH=w959-h645-s-no-gm?authuser=0',
     alt: 'High-fashion black tie gala banquet at Villa Rosa Kempinski Nairobi with ambient crystal chandeliers, elegant guests in bespoke tailored tuxedos and African couture evening gowns laughing candidly over crystal champagne flutes, soft cinematic depth of field.',
     body: 'Sony Alpha 1',
     lens: 'FE 50mm f/1.2 GM',
@@ -187,7 +187,7 @@ export const FOLIO_PLATES: PlateItem[] = [
   {
     id: '06',
     plateNumber: 'Plate 06',
-    categoryKey: 'concerts',
+    categoryKey: 'church',
     shortCategory: 'Live / Backstage',
     fullCategory: 'Live & Backstage',
     shortDate: 'Sep 2024',
@@ -307,7 +307,7 @@ export const FOLIO_PLATES: PlateItem[] = [
   {
     id: '11',
     plateNumber: 'Plate 11',
-    categoryKey: 'concerts',
+    categoryKey: 'church',
     shortCategory: 'Live / Kilifi Coast',
     fullCategory: 'Concert & Live Arena',
     shortDate: 'Dec 2023',
@@ -345,7 +345,7 @@ export const FOLIO_PLATES: PlateItem[] = [
     imageUrl:
       'https://lh3.googleusercontent.com/aida-public/AB6AXuDgXBEh5XHkC4qC1-beziyPUsztBdp82JcrER62NFHuwnig_sgeyh1Ffo5X6tV_pHoJZ8SbuHaK-2e_N8jVlCjEJ3ECpeMaGu2WeS6N0HNSJSgHKWIkegXofoIWpQHNRXLDqoss3fgGSjGO0-SvB9Ialglu-D9yn6Tu8ERo020aCPxJ2VScGhdhaEwI1gVmlmHKcTeZbZHK10MMGp7wULeg93zHskyCJnoVlJkZ7pklaSkgsjQosgzDWA',
     alt: 'High-fashion studio portrait of a Kenyan model draped in structured botanical green and gold silk garments, sculptured lighting carving cheekbones against dark forest-green seamless backdrop, exquisite editorial poise and subtle rim lighting.',
-    body: 'Hasselblad X2D 100C',
+    body: 'SONY A7 III',
     lens: 'XCD 90mm f/2.5 V',
     exp: '1/125s at f/5.6',
     iso: 'ISO 100',
@@ -356,10 +356,10 @@ export const FOLIO_PLATES: PlateItem[] = [
 
 export const MASTHEAD_COMMISSIONS = [
   {
-    name: 'Vogue Africa',
-    issue: 'Vol. IX · Botanical Couture Cover Essay',
-    year: '2024',
-    summary: '16-page medium-format monograph photographed in Karen and Lake Magadi with indigenous silk artisans.',
+    name: 'Karen AGC',
+    issue: 'CHURCH & CULTURE',
+    year: '2025',
+    summary: 'church related content.',
   },
   {
     name: 'Rolling Stone',
@@ -376,7 +376,7 @@ export const MASTHEAD_COMMISSIONS = [
   {
     name: 'Red Bull Rift',
     issue: 'Hard Enduro Escarpment Expedition',
-    year: '2024',
+    year: '20',
     summary: 'Autonomous solar-powered field capture tracking extreme off-road telemetry across volcanic dust basins.',
   },
 ];
