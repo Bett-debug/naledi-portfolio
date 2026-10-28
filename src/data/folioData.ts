@@ -48,7 +48,7 @@ export const HERO_PLATES = {
     title: "Frequencies at Midnight: The Acoustic Sessions",
     gear: "Sony A7 III · Karen Audio Lab",
     imageUrl:
-      "https://lh3.googleusercontent.com/pw/AP1GczNGvdiWqe1p5OxXyfT2H1pApCHUYCP87mGQh--uCZzohMOhEl1NN6xvpnbYeCcBIdeH5DJgWfclqATS_D_S-WUfYHqH4XCjk08QJc6ys2D4KDhoSvIs_MopLvUOocbN269lvTYpHwQFYzVINZO005tbVA=w1466-h978-s-no-gm?authuser=0",
+      "https://images.pixieset.com/646017521/1e8cd454b3ee246075bf2074352faaa0-xxlarge.jpg",
     alt: "Intimate editorial documentary shot of an acoustic soul singer and producer working over an analog Neve mixing desk in a Karen Nairobi recording studio. Moody deep forest green shadow tones, warm Edison bulb filaments glowing over vintage vinyl records and tube microphones, subtle analog tape reels in soft background focus.",
   },
   secondaryBottom: {
@@ -58,7 +58,7 @@ export const HERO_PLATES = {
     title: "Volcanic Dust Trail: Red Bull Hard Enduro",
     gear: "Sony A7 III · 70-200mm · 1/2500s Rift Escarpment",
     imageUrl:
-      "https://lh3.googleusercontent.com/pw/AP1GczPVr9Wlndkrmjgc9YSdHrnetXXel73VzoKDWCoDN1yRaSNbJ6VHgkXs1Q=w1466-h978-s-no-gm?authuser=0",
+      "https://images.pixieset.com/646017521/bcf00eb828bba3ece7017405e62fad9f-xxlarge.jpg",
     alt: "Dynamic action photograph of an off-road enduro motorcycle rider drifting through red volcanic dust switchbacks in the Great Rift Valley Kenya at sunset. Spectacular backlight creating long amber shadows and illuminated roost dirt plumes, rugged acacia trees and rocky ridgelines under dramatic stormy equatorial skies.",
   },
 };
