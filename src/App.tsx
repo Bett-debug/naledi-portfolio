@@ -4,9 +4,35 @@ import {
   HERO_PLATES,
   PORTRAIT_IMAGE,
   DEFAULT_LIGHTBOX_IMAGE,
-  MASTHEAD_COMMISSIONS,
   PlateItem,
 } from "./data/folioData";
+
+const MASTHEAD_COMMISSIONS = [
+  {
+    name: "Field Notes",
+    issue: "Rift Valley Portfolio",
+    year: 2025,
+    summary: "A selection of documentary work from across the Great Rift Valley.",
+  },
+  {
+    name: "Sound & Silence",
+    issue: "Live Performance",
+    year: 2024,
+    summary: "Commissioned photography documenting East African live music.",
+  },
+  {
+    name: "Open Country",
+    issue: "Motorsport Series",
+    year: 2023,
+    summary: "An editorial series following riders and crews in the field.",
+  },
+  {
+    name: "Studio Sessions",
+    issue: "Artist Portraits",
+    year: 2022,
+    summary: "Portraits and production stories from independent recording studios.",
+  },
+];
 
 type FilterCategory =
   | "all"
@@ -347,7 +373,6 @@ export default function App() {
             <div className="text-primary hover:text-terracotta transition-colors inline-flex items-center gap-1.5 font-semibold group cursor-pointer">
               est 2021
             </div>
-
           </section>
 
           {/* Hero Section: Clarity Geometric Typographic Cover + Living Botanical Vines */}
@@ -592,7 +617,7 @@ export default function App() {
                     5+ yrs
                   </span>
                   <span className="text-[11px] font-semibold tracking-ultra uppercase text-on-surface-variant flex items-center gap-1">
-                    <span className="w-1 h-1 rounded-full bg-terracotta" /> 
+                    <span className="w-1 h-1 rounded-full bg-terracotta" />
                     camera experince
                   </span>
                 </div>
@@ -645,7 +670,7 @@ export default function App() {
                     <span>Curated Works 2021 — 2025 · </span>
                   </div>
                   <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-primary">
-                    Portfolio Archive 
+                    Portfolio Archive
                   </h2>
                 </div>
                 <p className="text-[13px] text-on-surface-variant font-normal max-w-md">
@@ -744,13 +769,12 @@ export default function App() {
             id="story-section"
           >
             {/* Subtle Creeping Vine Motif in Section Callout Margin */}
-            <div className="absolute bottom-6 right-8 pointer-events-none opacity-20 hidden md:block">
+            <div className="absolute bottom-6 right-8 pointer-events-none opacity-20 hidden md:block w-40 h-auto max-w-full">
               <svg
-                className="anim-vine-sway"
+                className="anim-vine-sway w-full h-full"
                 fill="none"
-                height="150"
                 viewBox="0 0 160 150"
-                width="160"
+                preserveAspectRatio="xMidYMid meet"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -888,7 +912,12 @@ export default function App() {
                       Selected Monograph Commissions
                     </span>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
-                      {MASTHEAD_COMMISSIONS.map((item) => (
+                      {MASTHEAD_COMMISSIONS.map((item: {
+                        name: string;
+                        issue: string;
+                        year: number;
+                        summary: string;
+                      }) => (
                         <button
                           key={item.name}
                           type="button"
@@ -1112,9 +1141,7 @@ export default function App() {
                     <p className="text-[14px] text-white font-medium">
                       karen road, off Ngong Road, Nairobi, Kenya
                     </p>
-                    <p className="text-[13px] text-white/60">
-                      Nairobi, Kenya
-                    </p>
+                    <p className="text-[13px] text-white/60">Nairobi, Kenya</p>
                     <span className="text-[11px] text-white/40 uppercase tracking-ultra block pt-1">
                       Visitations strictly by advance schedule
                     </span>
@@ -1127,7 +1154,7 @@ export default function App() {
                     contact us
                   </span>
 
-                   {/* Instant WhatsApp */}
+                  {/* Instant WhatsApp */}
                   <a
                     className="p-4 bg-secondary-fixed text-moss-deep flex items-center justify-between hover:bg-ochre hover:text-white transition-all rounded-[2px] shadow-sm group"
                     href="https://wa.me/254769768474"
@@ -1218,8 +1245,6 @@ export default function App() {
                     </span>
                   </a> */}
 
-                  
-
                   {/* Fine Art Prints */}
                   {/* <a
                     className="p-4 bg-white/[0.03] hover:bg-white/[0.07] border border-white/[0.08] hover:border-ochre/30 flex items-center justify-between group transition-all rounded-[2px]"
@@ -1246,8 +1271,6 @@ export default function App() {
                       arrow_forward
                     </span>
                   </a> */}
-
-                  
                 </div>
               </div>
             </div>
