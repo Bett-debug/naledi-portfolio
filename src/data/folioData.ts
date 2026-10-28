@@ -44,22 +44,20 @@ export const HERO_PLATES = {
   secondaryTop: {
     id: "hero-02",
     plateId: "02",
-    badge: "Plate 02 · Studio Chronicle",
-    title: "Frequencies at Midnight: The Acoustic Sessions",
-    gear: "Sony A7 III · Karen Audio Lab",
-    imageUrl:
-      "https://images.pixieset.com/646017521/1e8cd454b3ee246075bf2074352faaa0-xxlarge.jpg",
-    alt: "Intimate editorial documentary shot of an acoustic soul singer and producer working over an analog Neve mixing desk in a Karen Nairobi recording studio. Moody deep forest green shadow tones, warm Edison bulb filaments glowing over vintage vinyl records and tube microphones, subtle analog tape reels in soft background focus.",
+    badge: "Plate 02 · Urban Horizon",
+    title: "Towers over the Water: Coastal Skyline",
+    gear: "Sony A7 IV · 70-200mm f/4 G · Kilindini Harbor",
+    imageUrl: "https://images.pixieset.com/646017521/1e8cd454b3ee246075bf2074352faaa0-xxlarge.jpg",
+    alt: "Telephoto architectural landscape of modern coastal high-rise buildings rising above a dense green tree canopy across a tranquil ocean inlet under a crisp blue sky in Mombasa.",
   },
   secondaryBottom: {
     id: "hero-03",
     plateId: "03",
-    badge: "Plate 03 · Motorsport Expeditions",
-    title: "Volcanic Dust Trail: Red Bull Hard Enduro",
-    gear: "Sony A7 III · 70-200mm · 1/2500s Rift Escarpment",
-    imageUrl:
-      "https://images.pixieset.com/646017521/bcf00eb828bba3ece7017405e62fad9f-xxlarge.jpg",
-    alt: "Dynamic action photograph of an off-road enduro motorcycle rider drifting through red volcanic dust switchbacks in the Great Rift Valley Kenya at sunset. Spectacular backlight creating long amber shadows and illuminated roost dirt plumes, rugged acacia trees and rocky ridgelines under dramatic stormy equatorial skies.",
+    badge: "Plate 03 · Transit & Street Life",
+    title: "The Pulse of Digo Road: Coastal Motion",
+    gear: "Sony A7 IV · 50mm f/1.4 GM · Mombasa CBD",
+    imageUrl: "https://images.pixieset.com/646017521/bcf00eb828bba3ece7017405e62fad9f-xxlarge.jpg",
+    alt: "High-angle urban documentary shot framed through vertical window bars, capturing colorful green and yellow tuk-tuks, white matatu vans, and vibrant street life along Digo Road in Mombasa.",
   },
 };
 
