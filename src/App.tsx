@@ -40,7 +40,10 @@ type FilterCategory =
   | "studio"
   | "travel"
   | "adventure"
-  | "events";
+  | "events"
+  | "documentary"
+  | "portraits"
+  | "architecture";
 
 export default function App() {
   const [activeCategory, setActiveCategory] = useState<FilterCategory>("all");
@@ -683,11 +686,15 @@ export default function App() {
                 {(
                   [
                     { key: "all", label: "All [12]" },
+                    { key: "documentary", label: "Documentary" },
+                    { key: "portraits", label: "Portraits" },
+                    { key: "architecture", label: "Architecture" },
                     { key: "church", label: "Live church" },
                     { key: "studio", label: "Studio Sessions" },
                     { key: "travel", label: "Rail & Travel" },
                     { key: "adventure", label: "Bikes & Rally" },
-                    { key: "events", label: "VIP & Summits" },
+                    { key: "events", label: "VIP & Summits" }
+                    
                   ] as const
                 ).map((tab) => {
                   const isActive = activeCategory === tab.key;
@@ -1295,11 +1302,11 @@ export default function App() {
               <p className="text-[13px] text-white/60 leading-relaxed font-light">
                 Documentary monograph and botanical photographic direction
                 spanning arenas, rally expeditions, and tactile acoustic spaces
-                across the East African Rift.
+                across kenya.
               </p>
             </div>
             <div className="space-y-3">
-              <span className="text-[10px] font-semibold tracking-ultra uppercase text-secondary-fixed block">
+              {/* <span className="text-[10px] font-semibold tracking-ultra uppercase text-secondary-fixed block">
                 Field Bureaus
               </span>
               <p className="text-[13px] text-white/70 leading-relaxed font-light">
@@ -1368,7 +1375,7 @@ export default function App() {
               <p className="text-[13px] text-white/60 leading-relaxed font-light">
                 Commercial bookings and archival Hahnemühle prints reserved
                 strictly on advance seasonal schedules.
-              </p>
+              </p> */}
               <button
                 type="button"
                 onClick={() =>
@@ -1379,9 +1386,7 @@ export default function App() {
                 className="text-[11px] font-semibold tracking-ultra uppercase text-secondary-fixed hover:text-white transition-colors underline underline-offset-4 flex items-center gap-1.5 cursor-pointer"
               >
                 <span>Reserve Schedule</span>
-                <span className="material-symbols-outlined text-[14px]">
-                  arrow_forward
-                </span>
+                
               </button>
             </div>
           </div>
